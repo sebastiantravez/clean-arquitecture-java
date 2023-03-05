@@ -16,7 +16,7 @@ public class ClientCore {
     private String phone;
     private String password;
     private Boolean status;
-    private Date created;
+    private Date createDate;
 
     public ClientCore() {
     }
@@ -112,5 +112,13 @@ public class ClientCore {
 
     public void setStatus(Boolean status) {
         this.status = status;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
     }
 }

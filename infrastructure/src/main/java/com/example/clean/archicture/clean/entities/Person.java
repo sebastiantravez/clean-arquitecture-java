@@ -47,5 +47,6 @@ public class Person {
     @NotNull
     private String phone;
     @Builder.Default
+    @NotNull(message = "Fecha no puede ser null")
     private Date createDate = new Date();
 }

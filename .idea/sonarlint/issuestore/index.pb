@@ -2,8 +2,6 @@
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-ž
-ninfrastructure/src/main/java/com/example/clean/archicture/clean/exception/handler/GenericExceptionHandler.java,d/a/da7bcd193900d3607d40cd3809eebad8cce53d51
 …
 Uinfrastructure/src/main/java/com/example/clean/archicture/clean/CleanApplication.java,8/c/8c8c59f6db653565c3404f99e47dd052f90df72d
 ‚
