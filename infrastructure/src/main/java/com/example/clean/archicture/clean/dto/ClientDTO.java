@@ -1,7 +1,7 @@
 package com.example.clean.archicture.clean.dto;
 
-import com.service.pichincha.entities.enums.GenderPerson;
-import com.service.pichincha.entities.enums.IdentificationPattern;
+import com.example.clean.archicture.clean.entities.enums.GenderPerson;
+import com.example.clean.archicture.clean.entities.enums.IdentificationPattern;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

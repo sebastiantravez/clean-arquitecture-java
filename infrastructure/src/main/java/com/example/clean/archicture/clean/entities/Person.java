@@ -1,7 +1,7 @@
 package com.example.clean.archicture.clean.entities;
 
-import com.service.pichincha.entities.enums.GenderPerson;
-import com.service.pichincha.entities.enums.IdentificationPattern;
+import com.example.clean.archicture.clean.entities.enums.GenderPerson;
+import com.example.clean.archicture.clean.entities.enums.IdentificationPattern;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

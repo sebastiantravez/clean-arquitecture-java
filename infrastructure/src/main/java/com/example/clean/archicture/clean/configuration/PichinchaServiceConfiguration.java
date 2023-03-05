@@ -1,5 +1,8 @@
 package com.example.clean.archicture.clean.configuration;
 
+import com.example.clean.archicture.pichincha.ports.ClientDomain;
+import com.example.clean.archicture.pichincha.usecases.api.SaveClientUseCase;
+import com.example.clean.archicture.pichincha.usecases.impl.SaveClientUseCaseImpl;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,4 +16,8 @@ public class PichinchaServiceConfiguration {
         return modelMapper;
     }
 
+    @Bean
+    public SaveClientUseCase saveClientUseCase(ClientDomain clientDomain) {
+        return new SaveClientUseCaseImpl(clientDomain);
+    }
 }
