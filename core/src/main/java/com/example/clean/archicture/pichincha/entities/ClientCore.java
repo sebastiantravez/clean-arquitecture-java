@@ -3,6 +3,8 @@ package com.example.clean.archicture.pichincha.entities;
 import com.example.clean.archicture.shared.enums.GenderPerson;
 import com.example.clean.archicture.shared.enums.IdentificationPattern;
 
+import java.util.Date;
+
 public class ClientCore {
     private Long clientId;
     private String fullName;
@@ -14,6 +16,7 @@ public class ClientCore {
     private String phone;
     private String password;
     private Boolean status;
+    private Date created;
 
     public ClientCore() {
     }

@@ -11,6 +11,7 @@ import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -24,6 +25,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Inheritance(strategy = InheritanceType.JOINED)
+@Builder
 public class Person {
     @Id
     @GeneratedValue
@@ -44,5 +46,6 @@ public class Person {
     private String address;
     @NotNull
     private String phone;
-    private Date createDate;
+    @Builder.Default
+    private Date createDate = new Date();
 }

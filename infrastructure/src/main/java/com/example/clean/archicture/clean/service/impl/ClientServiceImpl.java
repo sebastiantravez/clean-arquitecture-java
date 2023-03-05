@@ -8,7 +8,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.Optional;
 
 @Service
@@ -23,7 +22,6 @@ public class ClientServiceImpl implements ClientDomain {
     @Override
     public void saveClient(ClientCore clientCore) {
         Client client = modelMapper.map(clientCore, Client.class);
-        client.setCreateDate(new Date());
         clientRepository.save(client);
     }
 
