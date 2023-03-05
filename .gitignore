@@ -12,3 +12,10 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+.idea/sonarlint/issuestore/2/8/286946ad2a08880770a6ba47e2005c0b01bd4412
+.idea/sonarlint/issuestore/2/8/286946ad2a08880770a6ba47e2005c0b01bd4412
+.idea/sonarlint/issuestore/2/8/286946ad2a08880770a6ba47e2005c0b01bd4412
+core/build/tmp/compileJava/compileTransaction/stash-dir/ClientDomain.class.uniqueId1
+*.uniqueId0
+*.bin
+infrastructure/build/tmp/compileJava/compileTransaction/stash-dir/PichinchaServiceConfiguration.class.uniqueId1
